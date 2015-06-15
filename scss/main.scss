@@ -1,0 +1,19 @@
+@import 'vendor/ribbon/reset';
+
+@import 'vars';
+
+.slide ul > li:before {
+  content: " " !important;
+}
+
+//from shower
+@import 'vendor/ribbon/fonts';
+@import 'vendor/ribbon/defaults';
+@import 'vendor/ribbon/screen';
+
+@import 'functions';
+@import 'mixins';
+@import 'base';
+@import 'type';
+@import 'media';
+@import 'specifics';
