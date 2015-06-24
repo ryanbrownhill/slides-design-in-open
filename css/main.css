@@ -541,7 +541,7 @@ h1, h2, strong {
 
 @font-face {
   font-family: 'Magnel';
-  src: url('../fonts/Magnel/Magnel-webfont.otf'); }
+  src: url('../fonts/Magnel/Magnel-webfont.woff2'); }
 
 body {
   font-family: 'Nexa',sans-serif; }
@@ -579,6 +579,14 @@ strong {
     font-size: .75em;
     color: #1695A3;
     text-align: right; }
+
+blockquote {
+  font-family: Magnel;
+  color: #1695A3;
+  font-size: 2.3em;
+  margin: 1em;
+  padding-left: 1.5em;
+  border-left: .5em solid #ACF0F2; }
 
 img {
   margin-left: auto;
